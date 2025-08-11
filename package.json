@@ -1,0 +1,11 @@
+{
+  "name": "spacension-mern",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "build": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
